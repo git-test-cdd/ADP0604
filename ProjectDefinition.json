@@ -107,12 +107,8 @@
       "caDocTypeId": "aeca71db-bc4e-48f3-8a25-0d8836dd3815"
     }
   ],
-  "ba_caDefinitions": "caDefinitions.json",
+  "ba_caDefinitions": "",
   "ba_caProjectDescriptor": "30047a6b-9596-4c64-9064-24ed8ea24bc0",
-  "ba_snapshotName": "v1-2026-07-29-0205",
-  "ba_versionId": "e1db09ae-c975-47c8-8dc3-322abe91ee93",
-  "ba_caMLModel": "MLmodel.zip",
-  "ba_versionNotes": "",
-  "ba_caClassificationModelTrainingId": "b30d5573-d272-47c9-a0ae-4882c32a00f3",
-  "ba_caDataExtractionModelTrainingId": "82cc98a7-7f35-4198-9a06-02d8f5db4b7c"
+  "ba_snapshotName": "",
+  "ba_versionId": ""
 }

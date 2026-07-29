@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "http://www.ibm.com/dba/projects/ADP0604/CD_W2.json",
+  "title": "ADP0604 Document Type Definitions",
+  "lastUpdatDate": "",
+  "lastUpdate": "",
+  "comment": "This is a Doc Type Definition showing some different property types",
+  "baForDeployment": false,
+  "definitions": {
+    "W2": {
+      "$id": "#W2",
+      "title": "W2",
+      "allOf": [
+        {
+          "$ref": "http://www.ibm.com/dba/schemas/#systemDocument"
+        },
+        {
+          "type": "object",
+          "description": "",
+          "baclass": {
+            "caDocTypeId": "aeca71db-bc4e-48f3-8a25-0d8836dd3815",
+            "defaultRetentionPeriod": "None",
+            "retentionPeriodUnits": ""
+          },
+          "properties": {}
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "http://www.ibm.com/dba/solutions/solution1/ADP0604/ProjectDefinition.json",
+  "title": "ADP0604",
+  "ba_description": "",
+  "ba_type": "content",
+  "ba_repoPrimaryKey": "ADP0604",
+  "ba_id": "82857130-f449-446e-a639-500cccbca1c2",
+  "ba_expectedDocTypes": 0,
+  "ba_dataDefinitions": [
+    {
+      "$ref": "proj://CDD/DD_99e7b34d-1adc-4d67-b7e4-7b92aca8cf4a_Billtoname.json",
+      "title": "Bill to name"
+    },
+    {
+      "$ref": "proj://CDD/DD_5d76445c-b0dc-4d41-b494-1226f2febfa7_Invoicedate.json",
+      "title": "Invoice date"
+    },
+    {
+      "$ref": "proj://CDD/DD_fa16cf10-d428-484a-a06e-9b1aed2039c5_Invoicetotal.json",
+      "title": "Invoice total"
+    },
+    {
+      "$ref": "proj://CDD/DD_baaa793a-0748-4c82-a85c-e72a66e80fbd_Paymentduedate.json",
+      "title": "Payment due date"
+    },
+    {
+      "$ref": "proj://CDD/DD_e2a62352-0d06-4593-b4c8-387c46ec3c8a_Subtotal.json",
+      "title": "Subtotal"
+    },
+    {
+      "$ref": "proj://CDD/DD_550a2644-4a03-4ba8-9118-a1bc5fc7b1f1_Shippingamount.json",
+      "title": "Shipping amount"
+    },
+    {
+      "$ref": "proj://CDD/DD_2dad60d2-2a68-48b1-917e-f76e040637da_Taxamount.json",
+      "title": "Tax amount"
+    },
+    {
+      "$ref": "proj://CDD/DD_7e54388f-41dd-4892-a89e-64af26b94f6a_ApproverSignature.json",
+      "title": "Approver Signature"
+    },
+    {
+      "$ref": "proj://CDD/DD_dffb4a61-111f-4aaa-a3b1-e5b939719cfe_Accountname.json",
+      "title": "Account name"
+    },
+    {
+      "$ref": "proj://CDD/DD_4149c974-129d-44a3-ac03-f4b7b855a284_Accountnumber.json",
+      "title": "Account number"
+    },
+    {
+      "$ref": "proj://CDD/DD_d076cb59-4805-436b-835a-005eaa6e0eb4_Bankname.json",
+      "title": "Bank name"
+    },
+    {
+      "$ref": "proj://CDD/DD_0d6359f5-e671-46ff-9170-01c0134e66f6_Billtoaddress.json",
+      "title": "Bill to address"
+    },
+    {
+      "$ref": "proj://CDD/DD_c62a0578-2671-40cd-8df3-9665e9e04026_Shiptoaddress.json",
+      "title": "Ship to address"
+    },
+    {
+      "$ref": "proj://CDD/DD_8439a965-fa6c-442d-9c13-fd47de31cd3b_Shiptoname.json",
+      "title": "Ship to name"
+    },
+    {
+      "$ref": "proj://CDD/DD_566a626b-2503-4052-b634-56cdf5268959_Invoicenumber.json",
+      "title": "Invoice number"
+    },
+    {
+      "$ref": "proj://CDD/DD_fe2df2ef-d34b-468d-b639-0dc14e8872ad_Vendorname.json",
+      "title": "Vendor name"
+    },
+    {
+      "$ref": "proj://CDD/DD_98985368-7645-4184-8190-26372cb6c205_Vendoraddress.json",
+      "title": "Vendor address"
+    },
+    {
+      "$ref": "proj://CDD/DD_bd55be28-d3c0-4643-95f9-1180f62132b3_Purchaseordernumber.json",
+      "title": "Purchase order number"
+    },
+    {
+      "$ref": "proj://CDD/DD_728d0c53-8905-4eea-bc8f-0a1075f7a0dc_Paymentterms.json",
+      "title": "Payment terms"
+    }
+  ],
+  "ba_contentDefinitions": [
+    {
+      "$ref": "CD_UtilityBill.json",
+      "title": "Utility Bill",
+      "caDocTypeId": "a2827178-33da-403b-aaa8-b0bb3b820959"
+    },
+    {
+      "$ref": "CD_BillOfLading.json",
+      "title": "Bill of Lading",
+      "caDocTypeId": "63842cbd-c858-4a5d-955c-7825edb7da25"
+    },
+    {
+      "$ref": "CD_Invoice.json",
+      "title": "Invoice",
+      "caDocTypeId": "b65d6596-71e0-4def-92e4-fc5e04ff4e66"
+    },
+    {
+      "$ref": "CD_W2.json",
+      "title": "W2",
+      "caDocTypeId": "aeca71db-bc4e-48f3-8a25-0d8836dd3815"
+    }
+  ],
+  "ba_caDefinitions": "caDefinitions.json",
+  "ba_caProjectDescriptor": "30047a6b-9596-4c64-9064-24ed8ea24bc0",
+  "ba_snapshotName": "v1-2026-07-29-0205",
+  "ba_versionId": "e1db09ae-c975-47c8-8dc3-322abe91ee93",
+  "ba_caMLModel": "MLmodel.zip",
+  "ba_versionNotes": "",
+  "ba_caClassificationModelTrainingId": "b30d5573-d272-47c9-a0ae-4882c32a00f3",
+  "ba_caDataExtractionModelTrainingId": "82cc98a7-7f35-4198-9a06-02d8f5db4b7c"
+}
